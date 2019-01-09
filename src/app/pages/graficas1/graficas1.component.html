@@ -1,3 +1,41 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <app-grafico-dona typegrafico="doughnut" [opciones]="graficos.grafico1.labels" [datagrafico]="graficos.grafico1.data" [titlegrafico]="graficos.grafico1.leyenda"></app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <app-grafico-dona typegrafico="doughnut" [opciones]="graficos.grafico2.labels" [datagrafico]="graficos.grafico2.data" [titlegrafico]="graficos.grafico2.leyenda"></app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <app-grafico-dona typegrafico="doughnut" [opciones]="graficos.grafico3.labels" [datagrafico]="graficos.grafico3.data" [titlegrafico]="graficos.grafico3.leyenda"></app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <app-grafico-dona typegrafico="doughnut" [opciones]="graficos.grafico4.labels" [datagrafico]="graficos.grafico4.data" [titlegrafico]="graficos.grafico4.leyenda"></app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+</div>
